@@ -1,0 +1,55 @@
+body{
+  background: white;
+  width: 100vw;
+  height:100vh;
+}
+
+header{
+  background: pink;
+  width:50%;
+  height:11.5%;
+  margin:0 auto;
+}
+
+.tar{
+  background: yellow;
+  width:50%;
+  height:75%;
+  margin:0 auto;
+  flex-direction: column;
+  display:flex;
+  justify-content: space-evenly;
+  align-items:center;
+}
+
+.profiles{
+  background: blue;
+  width:89%;
+  height:69%;
+  margin: 27px 0 0 0;
+}
+ .buttons{
+  background:red;
+  width:89%;
+  height:20%;
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+ }
+
+ .previous{
+   background: hotpink;
+   width:40px;
+   height:40px;
+   margin: 0 0 0 0;
+ }
+
+ .next{
+  background: hotpink;
+  width:40px;
+  height:40px;
+  margin: 0 0 0 0;
+ }
+
+
+
